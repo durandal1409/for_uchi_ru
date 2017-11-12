@@ -83,6 +83,7 @@
             showingCorrectNumber('aNumDivID', axisStartX, axisY, oneDivision, currentNum);
             // changing span color
             currentSpan.style.backgroundColor = 'white';
+	    currentElement.style.display = 'none';
 
             // arrow2
             drawArrow(axisStartX + oneDivision * currentNum, axisStartX + oneDivision * currentNum + oneDivision * bNum, axisY);
@@ -109,6 +110,7 @@
             showingCorrectNumber('bNumDivID', axisStartX + oneDivision*aNum, axisY, oneDivision, bNum);
             // changing span color
             currentSpan.style.backgroundColor = 'white';
+	    currentElement.style.display = 'none';
 
             // expression input
             var inputElem = document.getElementById('sumNumID');
