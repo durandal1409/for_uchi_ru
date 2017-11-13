@@ -1,32 +1,45 @@
+canvas {
+	border: 1px solid red;
+}
 .div_for_canv_1 {
 	position: relative;
+	border: 1px solid green;
 }
 #aNumID{
 	position: absolute;
 	top: 125px;
 	left: 160px;
+	width: 20px;
 }
 #bNumID {
 	position: absolute;
 	top: 155px;
 	left: 390px;
+	width: 20px;
 }
 #sumNumID {
 	position: absolute;
 	top: 20px;
-	left: 320px;
+	left: 520px;
 	font-size: 1.7rem;
+	width: 30px;
+	/*float: right;*/
 }
 .expression {
+	font-family: "Times New Roman", Georgia, Serif;
 	position: absolute;
 	top: 20px;
 	left: 420px;
 	font-size: 2rem;
+	border: 1px solid red;
 }
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
+}
+input[type='number'] {
+    -moz-appearance: textfield;
 }
 input {
 	border: 2px solid lightgrey;
@@ -37,6 +50,7 @@ input {
 span{
 	border-radius: 5px;
 	padding: 2px 5px;
+	display: inline-block;
 }
 #aNumDivID {
 	position: absolute;
