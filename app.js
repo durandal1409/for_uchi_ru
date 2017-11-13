@@ -1,4 +1,4 @@
-                var canvas, ctx, w, h;
+        var canvas, ctx, w, h;
         var aNum, sumNum, bNum; 
         var imageHeight, axisStartX, axisY, oneDivision, arrowOneEnd, arrowTwoStart;  
 
@@ -69,8 +69,9 @@
             showingCorrectNumber(divID, currentNum, top, left);
             // changing span color
             currentSpan.style.backgroundColor = 'white';
-            // hiding input
+            // hiding input, clearing content
             currentElement.style.display = 'none';
+            currentElement.innerHTML = '';
             // next step (depending on input)
             nextStep();
 
