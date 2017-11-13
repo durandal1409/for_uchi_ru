@@ -108,6 +108,7 @@
 
           if (val === sumNum) {
             // showing correct number
+            currentElement.value = null;
             currentElement.style.display = 'none';
             currentSpan.innerHTML = sumNum;
             currentSpan.style.backgroundColor = 'white';
