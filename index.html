@@ -3,21 +3,21 @@
 <head lang='ru'>
 	<title>Сложение однозначных чисел</title>
 	<meta charset='utf-8'>
-	<link rel='stylesheet' href='style.css'>
-	<script src='app.js'></script>
+	<link rel='stylesheet' href='css/style.css'>
+	<script src='js/app.js'></script>
 </head>
 
 <body>
       <div class="div_for_canv_1">  
       	<canvas id='canv_1' width=1000 height=300></canvas>
-        <div class='expression'><span id='aSpanID'></span> + <span id='bSpanID'></span> = <span id='sumSpanID'>?</span></div>
-        <input type="number" id='sumNumID' min='0' max='20' oninput="validityChecking3()">
-        <input type="number" id='aNumID' min='0' max='9' oninput="validityChecking('aNumID', 'aSpanID', aNum)" autofocus>
-        <input type="number" id='bNumID' min='0' max='9' oninput="validityChecking2()">
+        <div class='expression'>
+          <span id='aSpanID'></span> + <span id='bSpanID'></span> = <span id='sumSpanID'>?</span>
+        </div>
+        <input type="number" id='sumNumID' min='0' max='20' oninput="validityCheckingSum()">
+        <input type="number" id='aNumID' min='0' max='9' oninput="validityChecking('aNumID', 'aSpanID', 'aNumDivID', aNum, secondArrowAndInput)" autofocus>
+        <input type="number" id='bNumID' min='0' max='9' oninput="validityChecking('bNumID', 'bSpanID', 'bNumDivID', bNum, sumInput)">
         <div class="aNumDiv" id='aNumDivID'>7</div>
         <div class="bNumDiv" id='bNumDivID'>4</div>
-      </div>
-
+      </div>      
 </body>
 </html>
-
