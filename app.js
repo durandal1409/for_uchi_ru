@@ -70,8 +70,9 @@
             // changing span color
             currentSpan.style.backgroundColor = 'white';
             // hiding input, clearing content
+            currentElement.value = null;
             currentElement.style.display = 'none';
-            currentElement.innerHTML = '';
+       
             // next step (depending on input)
             nextStep();
 
