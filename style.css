@@ -1,9 +1,5 @@
-canvas {
-	border: 1px solid red;
-}
 .div_for_canv_1 {
 	position: relative;
-	border: 1px solid green;
 }
 #aNumID{
 	position: absolute;
@@ -23,7 +19,6 @@ canvas {
 	left: 520px;
 	font-size: 1.7rem;
 	width: 30px;
-	/*float: right;*/
 }
 .expression {
 	font-family: "Times New Roman", Georgia, Serif;
@@ -31,7 +26,6 @@ canvas {
 	top: 20px;
 	left: 420px;
 	font-size: 2rem;
-	border: 1px solid red;
 }
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
